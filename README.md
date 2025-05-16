@@ -33,3 +33,14 @@ Files ending in txt are processed sequences or vectors. The details are as follo
 1. The file at the end of vec is the persistent vector obtained after description has been processed by lm, Please call it via the method provided in lm_features.
 2. The end of the description is the service description file after splitting the words.
 3. Files with percentage names are the split test set and training set, corresponding by suffix number.
+
+
+## Description on specific versions of libraries
+
+The libraries SAC-GNN used are as follows:</br>
+
+1. PyTroch 2.1.3
+2. gensim 4.3.2
+3. bert_serving 1.10.0
+4. numpy 2.2.5
+5. scikit-learn 1.7.0rc1
